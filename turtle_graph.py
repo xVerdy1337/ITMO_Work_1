@@ -15,11 +15,13 @@ elif variant == 2:
         forward(10 * scale)
         left(90)
 
+    # Диагональ
     goto(0, 10 * scale)
     goto(10 * scale, 0)
     goto(10 * scale, 10 * scale)
     goto(0, 10 * scale)
 
+    # Крыша
     left(45)
     forward(sqrt(2) * 5 * scale)
     right(90)
